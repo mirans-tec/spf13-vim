@@ -1,0 +1,1 @@
+nmap <leader>p :setlocal paste! paste?<cr>
