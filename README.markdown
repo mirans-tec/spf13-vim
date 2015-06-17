@@ -1,10 +1,17 @@
 sudo apt-get install ncurses-dev build-essential mercurial
+
 hg clone https://vim.googlecode.com/hg/ vim
+
 cd vim/src
+
 make distclean
+
 ./configure --with-features=huge --enable-pythoninterp --enable-rubyinterp
+
 make
+
 sudo make install
+
 
 # spf13-vim : Steve Francia's Vim Distribution
 
