@@ -1,6 +1,6 @@
 sudo apt-get install ncurses-dev build-essential mercurial
 
-hg clone https://vim.googlecode.com/hg/ vim
+git clone https://github.com/vim/vim.git
 
 cd vim/src
 
